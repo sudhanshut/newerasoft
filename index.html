@@ -1,36 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <title>currrisss</title>
-    <link rel="shortcut icon" href="ico.png">
-  </head>
-  <body>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta name="language" content="english">
+	<meta name="distribution" content="global">
+	<meta name="author" content="NeweraSoft">
+	<meta name="publisher" content="NeweraSoft">
+	<meta name="copyright" content="2019 NeweraSoft">
+	<meta name="viewport" content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="NeweraSoft is the Internet network Company for  discovering new technologies">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<meta name="keywords" content="technology portfolio, online technology site, technology professional platform, technology network, technology community, technology blog">
+	<title>NEWERASOFT</title>
+	<link rel="shortcut icon" href="ico.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+<body>
+<!--starting of site  @newerasoft -->
 <header>
-  <h1>crusssii web</h1>
+	<div class="header_menu">
+		<div class="logo">
+			<img src="ico.png" alt="NEWERASOFT">
+		</div>
+		<div class="menu_list">
+			<ul>
+				<li><a href="http://www.newerasoft.tk/">home</a></li>
+        <li><a onclick="showmodal()" href="#">blog</a></li>
+        <li><a href="pubpri\login\login.html">login</a> </li>
+				<li><a href="pubpri\suf\suf.html">signup</a></li>
+				<li><a href="#">about us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="modal">
+	  <img src="image.jpg" alt="blog banner">
+	  <div class="content">
+	    <h1 style="color:red">sorry for inconvenies</h1>
+	    <p>IN THIS BLOG WE GOING TO MAKE A MESSEGE SHARING APP & after some time i am going to make one more tab of program languages where
+			you can learn alot of syntax </p>
+	  </div>
+	  <div onclick="hidemodal()" class="hide fas fa-times"></div>
+	</div>
+	<script type="text/javascript">
+	 var modal = document.getElementsByClassName("modal")[0];
+	 function showmodal() {
+		 modal.style.bottom = "20px";
+	 }
+	 function hidemodal() {
+		 modal.style.bottom = "-300px";
+	 }
+	</script>
+	<!-- end of blog -->
+	 <div class="header_content">
+		<h2>A Internet Company</h2>
+		<h1> NEWERA SOFT</h1>
+		<button><a href="https://www.instagram.com/newerasoft">
+		follow us on	instagram</a></button>
+		<button><a href="https://www.youtube.com/channel/UCK4TaQ1u6mkrTBceF6CHrgQ">
+			Follow us on youtube</a></button>
+	</div>
+
 </header>
-<nav>
-  <a href="www.google.com">google</a>
-  <br>
-  <a href="www.google.com">google</a>
-<br>
-  <a href="www.google.com">google</a>
-  <br>
-  <a href="www.google.com">google</a>
-  <br>
-  <a href="www.google.com">google</a>
-  <br>
-  <a href="www.google.com">google</a>
-</nav>
-<hr>
-<section>
-  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-</section>
-<aside class="tip">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</aside>
-<footer><h2> copy right</h2></footer>
-  </body>
+
+</body>
 </html>
